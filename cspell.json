@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "lib/**",
+    ".git/**",
+    "*.log",
+    "*.tsbuildinfo",
+    ".DS_Store",
+    ".eslintcache",
+    "pnpm-lock.yaml"
+  ],
+  "dictionaries": [
+    "typescript",
+    "node",
+    "npm",
+    "softwareTerms"
+  ],
+  "words": [
+    "pnpm",
+    "tsup",
+    "vitest",
+    "eslint",
+    "prettier",
+    "husky",
+    "commitlint"
+  ]
+}

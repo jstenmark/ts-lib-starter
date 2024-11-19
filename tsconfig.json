@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ESNext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "emitDeclarationOnly": true,
+    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ],
+      //"@/*": ["./src/*"],
+      //"@components/*": ["src/components/*"],
+      //"@lib/*": ["src/lib/*"]
+    },
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "types": [
+    "vitest/globals",
+    "vitest",
+    "node"
+  ],
+}

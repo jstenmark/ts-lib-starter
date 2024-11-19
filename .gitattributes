@@ -1,0 +1,5 @@
+* text=auto eol=lf
+**/*.json linguist-language=jsonc
+*.md linguist-documentation
+*.typegen.ts  linguist-generated
+**/*.ts linguist-language=TypeScript
