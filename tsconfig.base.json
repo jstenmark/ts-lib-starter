@@ -1,12 +1,14 @@
 {
-  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "composite": true,
-    "declaration": true,
     "target": "ESNext",
     "lib": [
       "esnext",
       "dom"
+    ],
+    "name": "my-monorepo",
+    "version": "1.0.0",
+    "workspaces": [
+      "packages/*",
     ],
     "strict": true,
     "noImplicitAny": true,
@@ -25,17 +27,6 @@
       "~/*": [
         "src/*"
       ],
-      //"@/*": ["./src/*"],
-      //"@components/*": ["src/components/*"],
-      //"@lib/*": ["src/lib/*"]
     },
   },
-  "include": [
-    "src/**/*",
-  ],
-  "types": [
-    "vitest/globals",
-    "vitest",
-    "node"
-  ],
 }
